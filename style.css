@@ -1,3 +1,15 @@
+.navbar {
+    background-color: #37474F;
+    color: white;
+    position: fixed;
+    align-items:center;
+    align-self: center;
+    overflow: hidden;
+    text-align: center;
+    display: block;
+}
+
+
 header {
     background-color: #37474F;
     color: white;
@@ -6,6 +18,12 @@ header {
     align-items: center;
     align-self: top;
 
+}
+
+button {
+    color: white;
+    background-color: #37474F;
+    border-color: #263238;
 }
 
 table {
@@ -29,7 +47,7 @@ span {
 }
 
 a {
-    color:lightskyblue;
+    color:white;
     font-style: normal;
 }
 
@@ -96,7 +114,6 @@ footer {
 
 .gwiazdka {
     color:goldenrod;
-    background-color: ;
 }
 
 

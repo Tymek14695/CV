@@ -5,21 +5,45 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Tymoteusz Szarlej - Wizytówka</title>
         <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
+        
     </head>
     <body>
+        <table class="navbar">
+            <tr>
+                <td>
+                    <a href="#contact">Kontakt</a>
+                </td>
+                <td>
+                    <a href="#schools">Wykształcenie</a>
+                </td>
+                <td>
+                    <a href="#languages">Znajomość języków</a>
+                </td>
+                <td>
+                    <a href="#skills">Umiejętności</a>
+                </td>
+                <td>
+                    <a href="#certificates">Szkolenia i certyfikaty</a>
+                </td>
+                <td>
+                    <a href="#hobbies">Zainteresowania</a>
+                </td>
+            </tr>
+        </table>
         <header>
             <h1>WIZYTÓWKA</h1>
             <br>
             <div id="top">
-                <div>
+                <div id="contact">
                     <div id="topleft">
                         <img src="zdj.jpg" alt="Moje aktualne zdjęcie" width="90" height="120">
                     </div>
                     <div id="topright">
                         <h2>Tymoteusz Szarlej</h2>
                         <br>
-                        <h3>E-mail: <div id="showEmail"><button onclick="getEmailAdress">Pokaż adres e-mail</button></div></h3>
-                        <h3>Telefon: <div id="showNumber"><button onclick="getPhoneNumber">Pokaż numer telefonu</button></div></h3>
+                        <h3>E-mail: <div id="showEmail"><button onclick="getEmailAdress()">Pokaż adres e-mail</button></div></h3>
+                        <h3>Telefon: <div id="showNumber"><button onclick="getPhoneNumber()">Pokaż numer telefonu</button></div></h3>
                         <br>
                         <h3>Data urodzenia: <b>16.12.2004</b></h3>
                         <h3>Miejsce zamieszkania: <b>Harkabuz</b> (powiat nowotarski, województwo małopolskie, Polska)</h3>
@@ -29,7 +53,7 @@
             <hr>
             <blockquote>Jestem człowiekiem pracowitym, który ceni porządek i dąży do perfekcji. W przyszłości chciałbym zostać programistą i analitykiem danych. <br>Do miejsca pracy wniosę pozytywną energię i dużo motywacji.</blockquote>
         </header>
-            <section>
+            <section id="schools">
                 <br>
                 <h4>WYKSZTAŁCENIE</h4>
                 <hr>
@@ -54,7 +78,7 @@
                 </ul>
                 <br>
             </section>
-            <section>
+            <section id="languages">
                 <br>
                 <h4>ZNAJOMOŚĆ JĘZYKÓW</h4>
                 <hr>
@@ -63,7 +87,7 @@
                 <span class="gwiazdka">★★☆☆☆☆</span> <b>rosyjski: </b>poziom podstawowy (A2)<br>
                 <br>
             </section>
-            <section>
+            <section id="skills">
                 <br>
                 <h4>UMIEJĘTNOŚCI</h4>
                 <hr>
@@ -76,7 +100,7 @@
                 </ul>
                 <br>
             </section>
-            <section>
+            <section id="certificates">
                 <br>
                 <h4>SZKOLENIA I CERTYFIKATY</h4>
                 <hr>
@@ -88,7 +112,7 @@
                 <span><a href=certificate.pdf>Certyfikat</a> potwierdzający znajomość języka angielskiego na poziomie C2 (biegły/proficient) według wytycznych CEFR</span>
                 <br>
             </section>
-            <section>
+            <section id="hobbies">
                 <br>
                 <h4>ZAINTERESOWANIA</h4>
                 <hr>
